@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.png"/>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <div id="header-container" class="header__container" role="content-header">
+                <img class="header__container__img"src="assets/img/logo.png" alt="logo de pokemon" />
+                <h1 class="header__container__title">POKEDEX</h1>
+        </div>
+    </header>
+    <main>
+        <div id="main-container" class="main__container" role="content-main">
+            <section class="main__container__pokemon-info">
+                <div id="pokemon-name" class="main__container__pokemon-info__name">
+                    <img id="actual_symbol_img" alt="elemento del pokemon" width="50" height="50"/>
+                    <h2 id="pokemon_name"></h2>
+                </div>                
+                <div id="pokemon-details" class="main__container__pokemon-info__details">
+                    <div id="number"class="main__container__pokemon-info__details__item">
+                        <h4 class="main__container__pokemon-info__details__item__key">NO</h4>
+                    </div>
+                    <div id="level" class="main__container__pokemon-info__details__item">
+                        <h4 class="main__container__pokemon-info__details__item__key" >LEVEL</h4>
+                    </div>
+                    <div id="type" class="main__container__pokemon-info__details__item">
+                        <h4 class="main__container__pokemon-info__details__item__key" >TYPE</h4>
+                    </div>
+                    <div id="hability" class="main__container__pokemon-info__details__item">
+                        <h4 class="main__container__pokemon-info__details__item__key" >HABILITY</h4>
+                    </div>
+                    <div id="height" class="main__container__pokemon-info__details__item">
+                        <h4 class="main__container__pokemon-info__details__item__key" >HEIGHT</h4>
+                    </div>
+                    <div id="weight" class="main__container__pokemon-info__details__item">
+                        <h4 class="main__container__pokemon-info__details__item__key" >WEIGHT</h4>
+                    </div>
+                </div>
+                <div class="main__container__pokemon-info__img">
+                    <img id="actual_pokemon_img" alt="pokemon actual"/>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__container__title">
+                <h4 >OTHER</h4>
+            </div>   
+            <div class="footer__container__pokemon" onclick={modifyActualPokemon(0)} tabindex="1" onkeypress={modifyActualPokemon(0)}>
+                <img class="footer__container__pokemon__img" src="assets/img/fire_pokemon.png" alt="charizar"/>
+            </div>         
+            <div class="footer__container__pokemon" onclick={modifyActualPokemon(1)} tabindex="2" onkeypress={modifyActualPokemon(1)}>
+                <img class="footer__container__pokemon__img" src="assets/img/grass_pokemon.png" alt="Bulbasaur"/>
+            </div>
+            <div class="footer__container__pokemon" onclick={modifyActualPokemon(2)} tabindex="3" onkeypress={modifyActualPokemon(2)}>
+                <img class="footer__container__pokemon__img" src="assets/img/water_pokemon.png" alt="squirtle"/>
+            </div>            
+            <div class="footer__container__pokemon" onclick={modifyActualPokemon(3)} tabindex="4" onkeypress={modifyActualPokemon(3)}>
+                <img class="footer__container__pokemon__img" src="assets/img/flying_pokemon.png" alt="pidgey" />
+            </div>
+            <div class="footer__container__pokemon" onclick={modifyActualPokemon(4)} tabindex="5" onkeypress={modifyActualPokemon(4)}>
+                <img class="footer__container__pokemon__img" src="assets/img/electric_pokemon.png" alt="pikachu"/>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS files -->
+    <script src="js/home.js"></script>
+</body>
+</html>

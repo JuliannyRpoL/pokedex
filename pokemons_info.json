@@ -1,0 +1,67 @@
+[
+    {
+        "name": "charizard",
+        "symbol": "assets/img/fire_symbol.png",
+        "img": "assets/img/fire_pokemon.png",
+        "info": {
+            "number": "006",
+            "level": "100",
+            "type": "fire",
+            "hability": "flames",
+            "height": "1.7 m",
+            "weight": "90.5 kg"
+        }        
+    },    
+    {
+        "img": "assets/img/grass_pokemon.png",
+        "name": "Bulbasaur",
+        "symbol": "assets/img/grass_symbol.png",
+        "info": {
+            "number": "001",
+            "level": "100",
+            "type": "grass",
+            "hability": "thickness",
+            "height": "0.7 m",
+            "weight": "6.9 kg"
+        } 
+    },
+    {
+        "name": "squirtle",
+        "symbol": "assets/img/water_symbol.png",
+        "img": "assets/img/water_pokemon.png",
+        "info": {
+            "number": "007",
+            "level": "100",
+            "type": "water",
+            "hability": "torrent",
+            "height": "0.5 m",
+            "weight": "9.0 kg"
+        }        
+    },
+    {
+        "img": "assets/img/flying_pokemon.png",
+        "name": "pidgey",
+        "symbol": "assets/img/flying_symbol.png",
+        "info": {
+            "number": "016",
+            "level": "100",
+            "type": "flying",
+            "hability": "sight lynx",
+            "height": "0.3 m",
+            "weight": "1.8 kg"
+        } 
+    },
+    {
+        "img": "assets/img/electric_pokemon.png",
+        "name": "pikachu",
+        "symbol": "assets/img/electric_symbol.png",
+        "info": {
+            "number": "025",
+            "level": "100",
+            "type": "electric",
+            "hability": "static electric",
+            "height": "0.4 m",
+            "weight": "6.0 kg"
+        }  
+    }
+]
